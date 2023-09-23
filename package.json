@@ -1,0 +1,20 @@
+{
+  "name": "@kohta9521/Original_Package",
+  "version": "0.0.1",
+  "description": "GitHub Package sample",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
+  "publishConfig": {
+    "access": "restricted",
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kohta9521/Original_Package.git"
+  },
+  "author": "kohta9521",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "typescript": "^4.2.3"
+  }
+ }
