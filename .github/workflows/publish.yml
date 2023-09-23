@@ -16,13 +16,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       # Nodeのバージョンを指定
       - name: setup node
         uses: actions/setup-node@v1
         with:
-          node-version: 14.x
+          node-version: "16"
           registry-url: https://npm.pkg.github.com
 
       # 必要なモジュール（typescript）をインストール
